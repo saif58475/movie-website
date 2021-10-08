@@ -12,15 +12,52 @@
 </head>
 <body>
     <!-- the sidebar -->
-    <div class="container-fluid row ">
-   <div class="vh-100 col-sm-1  bg-white side-bar text-center ">
-    <i class="far fa-address-book text-dark"></i><hr>
-    <a href=""><i class="fas fa-bars text-dark middle-of-bar"></i></a>
-    <div class="bottom-of-bar">
-        <i class="fas fa-globe-europe text-dark"></i>
-        <i class="fas fa-share-alt text-dark"></i>
-    </div>
+    <div class="container-fluid row " >
+
+
+                             <div class="vh-100 row  side-bar text-center " id="sidebarholder">
+                                <div class="list col-sm-6 " id="firstlist">
+
+
+                                    <div class="itemli"><a href="#">Now Playing</a></div>
+                                    <div class="itemli"><a href="#">Popular</a></div>
+                                    <div class="itemli"><a href="#">Top Rated</a></div>
+                                    <div class="itemli"><a href="#">Trending</a></div>
+                                    <div class="itemli"><a href="#">Upcoming</a></div>
+                                    <div class="itemli"><a href="#contactus">Contact Us</a></div>
+
+
+
+                                  </div>
+
+                                <div class="col-sm-6 bg-white control-bar">
+                              <i class="far fa-address-book text-dark" ></i><hr>
+                              <i class="fas fa-bars text-dark fs-3 middle-of-bar" id="controlicon"></i>
+                              <div class="bottom-of-bar">
+                                  <i class="fas fa-globe-europe text-dark"></i>
+                                  <i class="fas fa-share-alt text-dark"></i>
+                                </div>
+
+                               
+
+                              </div>
+
+
    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
          <!-- the main page -->
          
@@ -28,10 +65,8 @@
 
 
 
-
-
     <!-- the search of the top -->
-    <div class="row text-center my-3">
+    <div class="row text-center my-3 indexeditor" id="searchdiv">
       <div class="col-sm-6 ">
         <input type="text" class="form-control text-center" placeholder="get movies by word"   aria-describedby="basic-addon1">
       </div>
@@ -92,10 +127,10 @@
 
 
    <!-- the contacts us form  -->
- <div class="col-sm-12 row  text-center m-auto ">
+ <div class="col-sm-12 row  text-center m-auto indexeditor" id="contactus">
      <h3 class="text-danger">CONTACT US...</h3>
   <div class="col-sm-6 p-3 ">
-      <input type="text" class="form-control text-center" placeholder="Enter Your Name" id="yourname" aria-describedby="addon-wrapping">
+      <input type="text" class="form-control text-center " placeholder="Enter Your Name" id="yourname" aria-describedby="addon-wrapping">
   </div>
   <div class="col-sm-6 p-3 ">
       <input type="text" class="form-control text-center" placeholder="Enter Email" id="youremail" aria-describedby="addon-wrapping">
@@ -107,7 +142,7 @@
       <input type="number" class="form-control text-center" placeholder="Enter Age" id="yourage" aria-describedby="addon-wrapping">
   </div>
   <div class="col-sm-6 p-3 ">
-      <input type="password" class="form-control text-center" placeholder="Enter Password" id="yourpassword" aria-describedby="addon-wrapping">
+      <input type="password" class="form-control text-center" placeholder="Enter Password (9numbers)" id="yourpassword" aria-describedby="addon-wrapping">
   </div>
   <div class="col-sm-6 p-3 ">
       <input type="password" class="form-control text-center" placeholder="Renter Password" id="reyourpassword" aria-describedby="addon-wrapping">
